@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div {
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    margin: auto;
+}
+
+#div1 {
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+.paragraph {
+    width: 200px;
+    height: fit-content;
+    background-color: aqua;
+    color: rgb(219, 17, 17);
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
